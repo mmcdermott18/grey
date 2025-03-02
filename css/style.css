@@ -292,7 +292,7 @@ a:hover, a:active {
   #mark {
     display: block;
     fill: #FF6030;
-    max-height: 100px;
+    height: 100px;
   }
   #logo-lines {
     display: none;
