@@ -295,7 +295,16 @@ a:hover, a:active {
     height: 100px;
   }
   #logo-lines {
-    display: none;
+    height: 30px;
+    width: 200px;
+    background:
+      linear-gradient(90deg, #F4F0EC 0, #F4F0EC 3px, transparent 3px), 
+      repeating-linear-gradient(
+        90deg, 
+        #2F2724 0, #2F2724 3px, #F4F0EC 3px, #F4F0EC calc(100% / 35)
+      ) 0 no-repeat;  
+    left: calc(12.5vw - 210px);
+    top: 155px;
   }
   main {
     width: 75vw;
@@ -324,9 +333,6 @@ a:hover, a:active {
     display: block;
     fill: #FF6030;
     max-height: 100px;
-  }
-  #logo-lines {
-    display: none;
   }
   main {
     width: 90vw;
