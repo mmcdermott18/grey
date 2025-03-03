@@ -334,6 +334,9 @@ a:hover, a:active {
     fill: #FF6030;
     max-height: 100px;
   }
+  #logo-lines {
+    display: none;
+  }
   main {
     width: 90vw;
     margin: 0px auto 50px;
