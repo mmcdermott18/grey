@@ -129,6 +129,9 @@ header {
 section {
   margin: 50px 0;
 }
+p.cta {
+  font-style: italic;
+}
 footer h2 {
   margin-bottom: 5px;
 }
@@ -139,13 +142,17 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flow-root;
 }
 li {
+  margin: 7px 0;
+}
+.float li {
   float: left;
 }
-li:nth-child(2) {
+.float li:nth-child(2) {
 }
-li:nth-child(2):before, li:nth-child(2):after {
+.float li:nth-child(2):before, .float li:nth-child(2):after {
   content: "//";
   margin: 0 5px;
 }
@@ -163,7 +170,7 @@ a, a:link, a:visited {
 a:hover, a:active {
   border-bottom: 1px solid #FF6030;
 }
-
+a {line-height: 1.6rem}
 
 /* ==========================================================================
    Helper classes
@@ -314,13 +321,13 @@ a:hover, a:active {
     margin: 0;
     padding: 0;
   }
-  li {
+  .float li {
     float: none;
     margin: 0 0 10px;
   }
-  li:nth-child(2) {
+  .float li:nth-child(2) {
   }
-  li:nth-child(2):before, li:nth-child(2):after {
+  .float li:nth-child(2):before, .float li:nth-child(2):after {
     content: "";
     margin: 0;
   }
