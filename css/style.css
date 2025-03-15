@@ -311,7 +311,8 @@ a {line-height: 1.6rem}
   }
   #mark {
     display: block;
-    fill: #FF6030;
+/*    fill: #FF6030;*/
+    fill: #FF1919;
     height: 100px;
   }
   #logo-lines {
