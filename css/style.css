@@ -151,8 +151,13 @@ li {
   float: left;
 }
 .float li:nth-child(2) {
+
 }
-.float li:nth-child(2):before, .float li:nth-child(2):after {
+/*.float li:nth-child(2):before, .float li:nth-child(2):after {
+  content: "//";
+  margin: 0 5px;
+}*/
+.float li:nth-child(2):before {
   content: "//";
   margin: 0 5px;
 }
