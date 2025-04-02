@@ -173,6 +173,22 @@ li {
   letter-spacing: 1px;
   margin-left: 5px;
 }
+/*#temp:after {
+  color: #FF1919;
+  content: "*";
+}
+#temp:hover:after {
+  color: #2F2724;;
+  content: "temporary site, redesign in process";
+  cursor: pointer;
+}*/
+#temp {
+  margin-top: 50px;
+}
+#temp hr {
+  border: none;
+  border-bottom: 1px solid #2F2724;
+}
 a, a:link, a:visited {
   text-decoration: none;
   color: #2F2724;
