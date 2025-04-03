@@ -114,7 +114,7 @@ body {
 }
 main {
   width: 50vw;
-  margin: 200px auto;
+  margin: 200px auto 50px;
 }
 header {
   height: 100px;
@@ -172,22 +172,6 @@ li {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-left: 5px;
-}
-/*#temp:after {
-  color: #FF1919;
-  content: "*";
-}
-#temp:hover:after {
-  color: #2F2724;;
-  content: "temporary site, redesign in process";
-  cursor: pointer;
-}*/
-#temp {
-  margin-top: 50px;
-}
-#temp hr {
-  border: none;
-  border-bottom: 1px solid #2F2724;
 }
 a, a:link, a:visited {
   text-decoration: none;
@@ -313,7 +297,7 @@ a {line-height: 1.6rem}
   }
   main {
     width: 65vw;
-    margin: 150px auto;
+    margin: 150px auto 50px;
   }
 }
 @media only screen and (max-width: 1100px) {
@@ -323,7 +307,7 @@ a {line-height: 1.6rem}
   }
   main {
     width: 65vw;
-    margin: 100px auto;
+    margin: 100px auto 50px;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -341,7 +325,7 @@ a {line-height: 1.6rem}
   }
   main {
     width: 75vw;
-    margin: 0 auto 100px;
+    margin: 0 auto 25px;
   }
   ul {
     margin: 0;
@@ -368,7 +352,7 @@ a {line-height: 1.6rem}
   }
   main {
     width: 90vw;
-    margin: 0px auto 50px;
+    margin: 0px auto 25px;
   }
   section {
     margin: 25px 0;
