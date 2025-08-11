@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body class="dark" style="visibility: hidden;">
+    {% include preload.html %}
+    {% include navigation.html %}
+    <main id="home">
+      {% include gallery.html %}
+    </main>
+    {% include footer.html %}
+  </body>
+  <script src="{{ "/assets/js/gallery.js" | relative_url }}"></script>  
+</html>

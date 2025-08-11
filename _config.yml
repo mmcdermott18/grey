@@ -1,0 +1,17 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings
+title: GREY
+description: 'GREY Architectural Studio' # this means to ignore newlines until "baseurl:"
+permalink: /work/:title.html

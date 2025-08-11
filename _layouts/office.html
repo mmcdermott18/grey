@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body class="dark" style="visibility: hidden;">
+    {% include navigation.html %}
+    <main class="office">
+      <article>
+          {{ content }}
+        </article>
+        <aside>
+        <h4>info</h4>
+        {% include contact.html %}
+        </aside>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

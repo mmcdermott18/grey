@@ -1,0 +1,9 @@
+- name: Home
+  link: /
+  version: 1
+- name: Office
+  link: /office/
+  version: 2
+- name: Work
+  link: /work/
+  version: 3
