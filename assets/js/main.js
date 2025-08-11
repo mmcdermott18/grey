@@ -63,13 +63,11 @@ function sliderWidths () {
     var $images = $imageContainer.find('img');
 
     var imageWidths = [];
-    if (i > 0 ) {
-      Draggable.create("#project-" + articleNum, {
-        type: "x",
-        bounds: "#slider-" + articleNum,
-        inertia: true
-      });
-    }
+    Draggable.create("#project-" + articleNum, {
+      type: "x",
+      bounds: "#slider-" + articleNum,
+      inertia: true
+    });
     // Loop through the first 5 images (or all if less than 5)
     $images.each(function(index) {
       var imageWidth = $(this).width() + 20;
