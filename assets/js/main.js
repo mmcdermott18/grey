@@ -63,12 +63,13 @@ function sliderWidths () {
     var $images = $imageContainer.find('img');
 
     var imageWidths = [];
-    Draggable.create("#project-" + articleNum, {
-      type: "x",
-      bounds: "#slider-" + articleNum,
-      inertia: true
-    });
-
+    if (i > 0 ) {
+      Draggable.create("#project-" + articleNum, {
+        type: "x",
+        bounds: "#slider-" + articleNum,
+        inertia: true
+      });
+    }
     // Loop through the first 5 images (or all if less than 5)
     $images.each(function(index) {
       var imageWidth = $(this).width() + 20;
@@ -83,6 +84,6 @@ function sliderWidths () {
     var mainF = $('main').outerWidth(true) - $('main').outerWidth();
     var mainH = mainF / 2;
     $imageContainer.css('width', (divWidth + mainH - 6) + 'px');
-  } 
+  }
 }
 
